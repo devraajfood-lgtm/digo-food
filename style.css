@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fffaf4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #ff7a00;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+#home {
+  text-align: center;
+}
+
+#home h2 {
+  color: #ff7a00;
+  margin-bottom: 10px;
+}
+
+#home a {
+  display: inline-block;
+  margin-top: 20px;
+  background: #25D366;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#products {
+  text-align: center;
+}
+
+#products div {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.1);
+}
+
+#products h3 {
+  color: #ff7a00;
+  margin-bottom: 10px;
+}
+
+#about,
+#contact {
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 20px 15px;
+  }
+}
